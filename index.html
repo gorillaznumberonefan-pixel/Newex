@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Welcome to NEWEX, your destination for tools, home improvement, building supplies, and more."
+    >
+
+    <meta name="theme-color" content="#0C2340">
+
+    <title>NEWEX | Home Improvement & Supply</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="#welcome" aria-label="NEWEX home">
+            NEWEX
+        </a>
+
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="main-navigation"
+        >
+            ☰
+        </button>
+
+        <nav id="main-navigation" class="main-navigation">
+            <a href="#departments">Departments</a>
+            <a href="#featured">Featured</a>
+            <a href="#about">About NEWEX</a>
+            <a class="cart-link" href="#cart">
+                Cart <span id="cart-count">0</span>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome" id="welcome">
+            <div class="welcome-content">
+                <p class="eyebrow">HOME IMPROVEMENT & SUPPLY</p>
+
+                <h1>NEWEX</h1>
+
+                <p class="welcome-message">
+                    Everything for your next project.
+                </p>
+
+                <p class="welcome-description">
+                    From the tools you need to the ideas you imagine,
+                    find supplies for making your next project happen.
+                </p>
+
+                <a class="primary-button" href="#store">
+                    Enter the Store
+                    <span aria-hidden="true">→</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="store-intro" id="store">
+            <p class="eyebrow">WELCOME TO NEWEX</p>
+
+            <h2>What can we help you build?</h2>
+
+            <p>
+                Explore supplies, discover new projects, and find
+                what you need in one place.
+            </p>
+        </section>
+
+        <section class="departments section" id="departments">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">EXPLORE THE STORE</p>
+                    <h2>Shop by Department</h2>
+                </div>
+            </div>
+
+            <div class="department-grid">
+                <a class="department-card" href="#products-tools">
+                    <span class="department-icon" aria-hidden="true">🔧</span>
+                    <h3>Tools & Hardware</h3>
+                    <p>Gear up for your next project.</p>
+                </a>
+
+                <a class="department-card" href="#products-lumber">
+                    <span class="department-icon" aria-hidden="true">🪵</span>
+                    <h3>Lumber & Building</h3>
+                    <p>Start with the right materials.</p>
+                </a>
+
+                <a class="department-card" href="#products-paint">
+                    <span class="department-icon" aria-hidden="true">🎨</span>
+                    <h3>Paint & Supplies</h3>
+                    <p>Bring your ideas to life.</p>
+                </a>
+
+                <a class="department-card" href="#products-outdoor">
+                    <span class="department-icon" aria-hidden="true">🌱</span>
+                    <h3>Outdoor & Garden</h3>
+                    <p>Make more of your outdoor space.</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="featured section" id="featured">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">DISCOVER NEWEX</p>
+                    <h2>Featured Products</h2>
+                </div>
+            </div>
+
+            <div class="product-grid" id="product-grid">
+                <p class="loading-message">
+                    Our products are getting ready...
+                </p>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <p class="eyebrow">BUILT AROUND YOUR PROJECTS</p>
+
+            <h2>A place to get things done.</h2>
+
+            <p>
+                NEWEX brings home improvement, tools, building
+                materials, and everyday project essentials together
+                in one convenient place.
+            </p>
+        </section>
+
+        <section class="cart-section section" id="cart">
+            <p class="eyebrow">YOUR SHOPPING</p>
+            <h2>Your Cart</h2>
+
+            <div id="cart-items">
+                <p>Your cart is empty for now.</p>
+            </div>
+
+            <p id="cart-total">Total: $0.00</p>
+
+            <button
+                class="primary-button"
+                id="checkout-button"
+                type="button"
+                disabled
+            >
+                Continue to Checkout
+            </button>
+
+            <p class="cart-note">
+                Online checkout is not available yet.
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand footer-brand" href="#welcome">NEWEX</a>
+
+        <p>Home Improvement & Supply</p>
+
+        <p>&copy; <span id="current-year">2026</span> NEWEX. All rights reserved.</p>
+
+        <a href="#welcome">Back to top ↑</a>
+    </footer>
+</body>
+</html>
